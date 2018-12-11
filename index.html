@@ -10,17 +10,22 @@
 </head>
 <body>
 
-    <select name="voice" id="voices">
-        <option value="">Select A Voice</option>
-    </select>
+    <div class="voceinator">
+        <h1>Text To Speech Test</h1>
+        <select name="voice" id="voices">
+            <option value="">Select A Voice</option>
+        </select>
 
-    <label for="rate">Rate:</label>
-    <input name="rate" type="range" min="0" max="3" volume="1" step="0.1">
+        <label for="rate">Rate:</label>
+        <input name="rate" type="range" min="0" max="3" volume="1" step="0.1">
 
-    <label for="pitch">Pitch:</label>
-    <input name="pitch" type="range" min="0" max="2" volume="1" step="0.1">
+        <label for="pitch">Pitch:</label>
+        <input name="pitch" type="range" min="0" max="2" volume="1" step="0.1">
 
-    
+        <textarea name="text">Hi this is a test 👌</textarea>
+        <button id="stop">Stop!</button>
+        <button id="speak">Speak</button>
+    </div>
     
 </body>
 </html>
